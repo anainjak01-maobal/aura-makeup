@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AURA | Maquillaje para mujer · Maicao, La Guajira</title>
+<meta name="description" content="AURA: maquillaje para mujer. Realza tu belleza, revela tu esencia. Labiales, bases, sombras, pestañas y rubores. Pedidos por WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<!-- Degradados reutilizables por todas las ilustraciones -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="gGold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9C7B42"/><stop offset=".3" stop-color="#F1DDAE"/><stop offset=".6" stop-color="#C9A66B"/><stop offset="1" stop-color="#8E6E39"/></linearGradient>
+    <linearGradient id="gRed" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8A1530"/><stop offset=".45" stop-color="#C42A47"/><stop offset="1" stop-color="#7A1128"/></linearGradient>
+    <linearGradient id="gBlack" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#120A0D"/><stop offset=".4" stop-color="#3B2A31"/><stop offset="1" stop-color="#120A0D"/></linearGradient>
+  </defs>
+</svg>
+
+<!-- ============ ENCABEZADO ============ -->
+<header class="site-header" id="top">
+  <div class="hbar">
+    <div class="hl">
+      <button class="icon-btn burger" type="button" aria-label="Abrir menú" aria-expanded="false" data-act="menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
+      </button>
+      <nav class="nav nav-l" aria-label="Principal">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#productos">Productos</a>
+        <a href="#valores">Valores</a>
+      </nav>
+    </div>
+    <a class="logo" href="#inicio" aria-label="AURA, inicio">AURA<small>MAKEUP</small></a>
+    <div class="hr">
+      <nav class="nav nav-r-links" aria-label="Secundario">
+        <a href="#pedido">Cómo pedir</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <button class="icon-btn" type="button" aria-label="Abrir carrito de compras" data-act="open-cart" id="cartBtn">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a1.6 1.6 0 0 1-1.6 1.4H7.8a1.6 1.6 0 0 1-1.6-1.4L5 8z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg>
+        <span class="badge" id="cartBadge">0</span>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="mnav" id="mnav" aria-label="Menú móvil">
+  <a href="#nosotros" data-act="menu">Nosotros</a>
+  <a href="#productos" data-act="menu">Productos</a>
+  <a href="#valores" data-act="menu">Valores</a>
+  <a href="#pedido" data-act="menu">Cómo pedir</a>
+  <a href="#contacto" data-act="menu">Contacto</a>
+</div>
+
+<main>
+<!-- ============ INICIO (PORTADA) ============ -->
+<section class="hero" id="inicio">
+  <svg class="hero-art" viewBox="0 0 1600 900" preserveAspectRatio="xMaxYMid slice" role="img" aria-label="Ilustración de labial dorado, polvo compacto, paleta de sombras y brocha sobre un pedestal, con pétalos de rosa y destellos dorados">
+    <defs>
+      <linearGradient id="hBg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1C1216"/><stop offset="1" stop-color="#341826"/></linearGradient>
+      <radialGradient id="hGlow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#EDB9A4" stop-opacity=".6"/><stop offset=".55" stop-color="#B76E79" stop-opacity=".18"/><stop offset="1" stop-color="#B76E79" stop-opacity="0"/></radialGradient>
+      <linearGradient id="hPed" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4A2635"/><stop offset="1" stop-color="#241119"/></linearGradient>
+      <filter id="hBlur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="14"/></filter>
+      <filter id="hBlur2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4"/></filter>
+      <path id="hStar" d="M0 -18 Q2 -2 18 0 Q2 2 0 18 Q-2 2 -18 0 Q-2 -2 0 -18Z"/>
+      <path id="hPetal" d="M0 0C22-34 66-30 76 2C64 40 20 44 0 0Z"/>
+    </defs>
+    <rect width="1600" height="900" fill="url(#hBg)"/>
+    <circle cx="1190" cy="470" r="560" fill="url(#hGlow)"/>
+    <g fill="none" stroke="#C9A66B" stroke-opacity=".28"><circle cx="1190" cy="480" r="300"/><circle cx="1190" cy="480" r="390"/><circle cx="1190" cy="480" r="480"/></g>
+    <g fill="#EDB9A4" opacity=".28" filter="url(#hBlur)"><circle cx="820" cy="220" r="60"/><circle cx="1500" cy="300" r="80"/><circle cx="900" cy="560" r="44"/></g>
+
+    <!-- trazo de labial -->
+    <path d="M1010 190C1090 120 1170 250 1260 170S1400 130 1490 196" fill="none" stroke="#B3243C" stroke-width="30" stroke-linecap="round" opacity=".9"/>
+    <path d="M1020 182C1096 118 1166 238 1256 162" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".22"/>
+
+    <!-- pedestal -->
+    <ellipse cx="1210" cy="858" rx="470" ry="40" fill="#000" opacity=".45" filter="url(#hBlur)"/>
+    <path d="M770 790V850A440 54 0 0 0 1650 850V790Z" fill="url(#hPed)"/>
+    <ellipse cx="1210" cy="790" rx="440" ry="58" fill="#5A3041"/>
+    <ellipse cx="1210" cy="786" rx="440" ry="58" fill="none" stroke="#C9A66B" stroke-opacity=".55" stroke-width="2"/>
+
+    <!-- brocha -->
+    <g transform="rotate(13 1480 800)">
+      <rect x="1470" y="440" width="18" height="360" rx="9" fill="url(#gGold)"/>
+      <rect x="1465" y="400" width="28" height="56" rx="6" fill="#A8863F"/>
+      <ellipse cx="1479" cy="360" rx="34" ry="64" fill="#EBCBC4"/>
+      <ellipse cx="1479" cy="322" rx="28" ry="36" fill="#C98A87"/>
+    </g>
+
+    <!-- polvo compacto -->
+    <g transform="translate(70 4)"><g class="float" style="animation-delay:-3s">
+      <path d="M830 744V776A150 44 0 0 0 1130 776V744Z" fill="#A8863F"/>
+      <ellipse cx="980" cy="744" rx="150" ry="44" fill="url(#gGold)"/>
+      <ellipse cx="980" cy="744" rx="120" ry="34" fill="none" stroke="#fff" stroke-opacity=".4"/>
+      <ellipse cx="940" cy="730" rx="46" ry="9" fill="#fff" opacity=".35"/>
+    </g></g>
+
+    <!-- paleta de sombras -->
+    <g transform="rotate(-5 1180 815)">
+      <rect x="1030" y="778" width="300" height="84" rx="14" fill="#2A141D" stroke="#C9A66B" stroke-width="2.5"/>
+      <g><ellipse cx="1080" cy="806" rx="26" ry="11" fill="#D9A58F"/><ellipse cx="1142" cy="806" rx="26" ry="11" fill="#C27B6B"/><ellipse cx="1204" cy="806" rx="26" ry="11" fill="#8C4A4F"/><ellipse cx="1266" cy="806" rx="26" ry="11" fill="#E8C9A8"/><ellipse cx="1080" cy="838" rx="26" ry="11" fill="#6B3A47"/><ellipse cx="1142" cy="838" rx="26" ry="11" fill="#B58D5E"/><ellipse cx="1204" cy="838" rx="26" ry="11" fill="#E3B6B0"/><ellipse cx="1266" cy="838" rx="26" ry="11" fill="#7A4A58"/></g>
+    </g>
+
+    <!-- labial abierto -->
+    <g transform="rotate(-6 1255 790)">
+      <rect x="1197" y="580" width="116" height="212" rx="12" fill="url(#gGold)"/>
+      <rect x="1189" y="548" width="132" height="42" rx="8" fill="#A8863F"/>
+      <rect x="1202" y="486" width="106" height="70" fill="#E1C58B"/>
+      <path d="M1208 488V392Q1208 358 1236 344L1300 314Q1306 312 1306 320V488Z" fill="url(#gRed)"/>
+      <path d="M1222 484V400Q1222 384 1236 376" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="7" stroke-linecap="round"/>
+      <rect x="1210" y="600" width="9" height="180" rx="4" fill="#fff" opacity=".3"/>
+    </g>
+    <!-- tapa -->
+    <g>
+      <rect x="1362" y="560" width="104" height="232" rx="12" fill="url(#gGold)"/>
+      <rect x="1374" y="572" width="11" height="208" rx="5" fill="#fff" opacity=".3"/>
+      <rect x="1362" y="560" width="104" height="22" rx="8" fill="#A8863F"/>
+    </g>
+
+    <!-- pétalos y destellos -->
+    <g class="drift" style="animation-delay:-2s"><use href="#hPetal" transform="translate(900 380) rotate(-30) scale(.9)" fill="#C9677A" opacity=".85"/></g>
+    <g class="drift" style="animation-delay:-5s"><use href="#hPetal" transform="translate(1520 520) rotate(40) scale(.7)" fill="#E3A0AC" opacity=".8"/></g>
+    <g class="drift" style="animation-delay:-7s"><use href="#hPetal" transform="translate(1010 640) rotate(150) scale(.6)" fill="#B3485E" opacity=".75"/></g>
+    <g class="drift" style="animation-delay:-1s" filter="url(#hBlur2)"><use href="#hPetal" transform="translate(1440 90) rotate(-80) scale(1.3)" fill="#C9677A" opacity=".5"/></g>
+    <g fill="#F1DDAE"><use class="tw" href="#hStar" transform="translate(1110 330) scale(1)"/><use class="tw" href="#hStar" transform="translate(1390 430) scale(.8)" style="animation-delay:-1s"/><use class="tw" href="#hStar" transform="translate(880 250) scale(.7)" style="animation-delay:-2s"/><use class="tw" href="#hStar" transform="translate(1540 700) scale(.9)" style="animation-delay:-.5s"/><use class="tw" href="#hStar" transform="translate(1000 520) scale(.6)" style="animation-delay:-2.5s"/><use class="tw" href="#hStar" transform="translate(1320 120) scale(.8)" style="animation-delay:-1.5s"/></g>
+  </svg>
+  <div class="hero-scrim"></div>
+
+  <div class="hero-inner wrap">
+    <p class="eyebrow rise" style="animation-delay:.1s">Maicao · La Guajira · Colombia</p>
+    <h1 class="rise" style="animation-delay:.25s">Realza tu belleza,<em>revela tu esencia.</em></h1>
+    <p class="lead rise" style="animation-delay:.45s">Maquillaje para mujer con una presentación elegante y una atención cercana. Labiales, bases, sombras, pestañas y rubores para cada ocasión.</p>
+    <div class="cta-row rise" style="animation-delay:.65s">
+      <a class="btn btn-gold" href="#productos">Descubre la colección</a>
+      <a class="btn btn-ghost" href="#contacto" data-wa="general" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+    </div>
+    <ul class="legend rise" style="animation-delay:.9s">
+      <li>Colección de 5 productos</li>
+      <li>Elegancia en cada detalle</li>
+      <li>Pedidos por WhatsApp</li>
+    </ul>
+  </div>
+  <div class="scroll-cue" aria-hidden="true"></div>
+</section>
+
+<!-- Cinta de palabras -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <ul><li>Labiales</li><li>Bases</li><li>Sombras</li><li>Pestañas</li><li>Rubores</li><li>Elegancia</li><li>Confianza</li></ul>
+    <ul><li>Labiales</li><li>Bases</li><li>Sombras</li><li>Pestañas</li><li>Rubores</li><li>Elegancia</li><li>Confianza</li></ul>
+  </div>
+</div>
+
+<!-- ============ QUIÉNES SOMOS + HISTORIA ============ -->
+<section class="sec" id="nosotros">
+  <div class="wrap">
+    <div class="grid-2">
+      <figure class="arch-fig reveal">
+        <div class="arch">
+          <svg viewBox="0 0 400 500" role="img" aria-label="Ilustración de una flor rosada, un labial dorado y una brocha">
+            <defs><radialGradient id="aGlow" cx=".5" cy=".62" r=".6"><stop offset="0" stop-color="#FBE9E3"/><stop offset="1" stop-color="#F0D3CE"/></radialGradient></defs>
+            <rect width="400" height="500" fill="url(#aGlow)"/>
+            <circle cx="200" cy="300" r="150" fill="none" stroke="#C9A66B" stroke-opacity=".5"/>
+            <circle cx="200" cy="300" r="190" fill="none" stroke="#C9A66B" stroke-opacity=".25"/>
+            <g transform="translate(200 300)">
+              <g fill="#C9677A"><ellipse cx="0" cy="-70" rx="34" ry="64"/><ellipse cx="0" cy="-70" rx="34" ry="64" transform="rotate(45)"/><ellipse cx="0" cy="-70" rx="34" ry="64" transform="rotate(90)"/><ellipse cx="0" cy="-70" rx="34" ry="64" transform="rotate(135)"/><ellipse cx="0" cy="-70" rx="34" ry="64" transform="rotate(180)"/><ellipse cx="0" cy="-70" rx="34" ry="64" transform="rotate(225)"/><ellipse cx="0" cy="-70" rx="34" ry="64" transform="rotate(270)"/><ellipse cx="0" cy="-70" rx="34" ry="64" transform="rotate(315)"/></g>
+              <g fill="#E3A0AC" opacity=".9"><ellipse cx="0" cy="-48" rx="24" ry="46"/><ellipse cx="0" cy="-48" rx="24" ry="46" transform="rotate(45)"/><ellipse cx="0" cy="-48" rx="24" ry="46" transform="rotate(90)"/><ellipse cx="0" cy="-48" rx="24" ry="46" transform="rotate(135)"/><ellipse cx="0" cy="-48" rx="24" ry="46" transform="rotate(180)"/><ellipse cx="0" cy="-48" rx="24" ry="46" transform="rotate(225)"/><ellipse cx="0" cy="-48" rx="24" ry="46" transform="rotate(270)"/><ellipse cx="0" cy="-48" rx="24" ry="46" transform="rotate(315)"/></g>
+              <circle r="26" fill="#F1DDAE"/><circle r="12" fill="#C9A66B"/>
+            </g>
+            <g transform="rotate(-18 110 400)"><rect x="82" y="330" width="56" height="140" rx="8" fill="url(#gGold)"/><rect x="78" y="310" width="64" height="26" rx="6" fill="#A8863F"/><rect x="86" y="276" width="48" height="40" fill="#E1C58B"/><path d="M90 278V236Q90 222 102 216L128 204Q132 203 132 208V278Z" fill="url(#gRed)"/></g>
+            <g transform="rotate(20 310 420)"><rect x="302" y="300" width="12" height="170" rx="6" fill="url(#gGold)"/><rect x="298" y="284" width="20" height="26" rx="4" fill="#A8863F"/><ellipse cx="308" cy="252" rx="22" ry="40" fill="#EBCBC4"/><ellipse cx="308" cy="228" rx="18" ry="22" fill="#C98A87"/></g>
+            <g fill="#C9A66B"><path class="tw" d="M70 110 Q72 124 86 126 Q72 128 70 142 Q68 128 54 126 Q68 124 70 110Z"/><path class="tw" d="M330 150 Q331 160 341 161 Q331 162 330 172 Q329 162 319 161 Q329 160 330 150Z" style="animation-delay:-1.4s"/></g>
+          </svg>
+        </div>
+      </figure>
+      <div class="copy reveal" style="--d:.15s">
+        <p class="eyebrow">01 · ¿Quiénes somos?</p>
+        <h2 class="display">Belleza con <em>intención</em>, elegancia con propósito.</h2>
+        <p>AURA es un emprendimiento dedicado a la venta de maquillaje para mujer. Nace con la idea de ofrecer productos que ayuden a cada clienta a sentirse segura, expresiva y auténtica.</p>
+        <p>Estamos ubicados en Maicao, La Guajira, Colombia. Nos caracterizamos por la creatividad, la responsabilidad, el compromiso y una atención cercana y cálida.</p>
+        <p>Queremos crecer como marca y ser reconocidos por la calidad de nuestro servicio y por el cuidado en cada detalle.</p>
+      </div>
+    </div>
+
+    <div class="historia reveal">
+      <blockquote>“La idea nació al reconocer que muchas mujeres buscan productos de maquillaje bonitos, accesibles y con una buena atención.”</blockquote>
+      <div>
+        <p class="eyebrow" style="margin-bottom:20px">02 · Nuestra historia</p>
+        <p>AURA surge como una idea de emprendimiento que une la creatividad, la belleza y el servicio al cliente. A partir de esa inspiración decidimos crear una marca que ofrezca diferentes opciones de maquillaje para distintos gustos y ocasiones.</p>
+        <p>Nuestro propósito es comenzar en Maicao y, con esfuerzo y dedicación, lograr que nuestros productos sean conocidos en otros lugares. Este proyecto es una oportunidad para aprender, innovar, desarrollar habilidades empresariales y demostrar que las buenas ideas pueden convertirse en proyectos reales.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRODUCTOS + CARRITO ============ -->
+<section class="sec blush" id="productos">
+  <div class="wrap center">
+    <p class="eyebrow">03 · Nuestros productos</p>
+    <h2 class="display">La colección <em>esencial.</em></h2>
+    <p class="lead">Cinco básicos para crear desde un look natural hasta uno de noche. Elige tus favoritos, ajusta las cantidades y envía tu pedido por WhatsApp.</p>
+
+    <div class="products">
+      <!-- Labial -->
+      <article class="product fx reveal" data-id="labial" data-name="Labial mate">
+        <div class="p-art" style="--tint:#F6D9D6">
+          <svg viewBox="0 0 300 330" role="img" aria-label="Labial mate dorado con un trazo de color rojo"><ellipse cx="150" cy="292" rx="86" ry="9" fill="#2A141D" opacity=".12"/><path d="M62 276C100 252 132 292 172 270S232 252 246 272" fill="none" stroke="#B3243C" stroke-width="22" stroke-linecap="round" opacity=".92"/><rect x="112" y="186" width="76" height="92" rx="8" fill="url(#gGold)"/><rect x="108" y="164" width="84" height="28" rx="6" fill="#A8863F"/><rect x="116" y="132" width="68" height="38" fill="#E1C58B"/><path d="M118 134V90Q118 74 132 68L176 52Q182 50 182 56V134Z" fill="url(#gRed)"/><path d="M127 132V92Q127 84 135 80" fill="none" stroke="#fff" stroke-opacity=".38" stroke-width="5" stroke-linecap="round"/><rect x="120" y="196" width="6" height="74" rx="3" fill="#fff" opacity=".3"/></svg>
+          <span class="p-tag">Labios</span>
+        </div>
+        <div class="p-body">
+          <h3>Labial mate</h3>
+          <p>Color intenso y acabado mate para un look elegante, del día a la noche.</p>
+          <p class="price" data-price></p>
+          <div class="p-actions">
+            <div class="stepper"><button type="button" data-act="dec" aria-label="Quitar uno">−</button><span class="qty" aria-live="polite">0</span><button type="button" data-act="inc" aria-label="Agregar uno">+</button></div>
+            <button type="button" class="btn btn-dark" data-act="add">Agregar</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Base -->
+      <article class="product fx reveal" data-id="base" data-name="Base líquida" style="--d:.08s">
+        <div class="p-art" style="--tint:#F3E1CF">
+          <svg viewBox="0 0 300 330" role="img" aria-label="Frasco de base líquida con dosificador"><ellipse cx="150" cy="292" rx="86" ry="9" fill="#2A141D" opacity=".12"/><ellipse cx="230" cy="268" rx="30" ry="14" fill="#E3B58F"/><ellipse cx="238" cy="264" rx="16" ry="7" fill="#EBC4A2"/><rect x="104" y="140" width="92" height="144" rx="24" fill="#F1D4B8"/><rect x="112" y="148" width="14" height="124" rx="7" fill="#fff" opacity=".45"/><rect x="116" y="198" width="68" height="58" rx="6" fill="#FBF6F1"/><rect x="126" y="212" width="48" height="5" rx="2.5" fill="#C9A66B"/><rect x="132" y="226" width="36" height="4" rx="2" fill="#C9A66B" opacity=".6"/><rect x="136" y="112" width="28" height="34" fill="url(#gGold)"/><rect x="141" y="80" width="18" height="36" rx="4" fill="#2A141D"/><rect x="141" y="72" width="54" height="14" rx="7" fill="#2A141D"/></svg>
+          <span class="p-tag">Rostro</span>
+        </div>
+        <div class="p-body">
+          <h3>Base líquida</h3>
+          <p>Un acabado uniforme y natural como lienzo para el resto de tu maquillaje.</p>
+          <p class="price" data-price></p>
+          <div class="p-actions">
+            <div class="stepper"><button type="button" data-act="dec" aria-label="Quitar uno">−</button><span class="qty" aria-live="polite">0</span><button type="button" data-act="inc" aria-label="Agregar uno">+</button></div>
+            <button type="button" class="btn btn-dark" data-act="add">Agregar</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Paleta -->
+      <article class="product fx reveal" data-id="paleta" data-name="Paleta de sombras" style="--d:.16s">
+        <div class="p-art" style="--tint:#EADDE5">
+          <svg viewBox="0 0 300 330" role="img" aria-label="Paleta de sombras con seis colores"><ellipse cx="150" cy="292" rx="96" ry="9" fill="#2A141D" opacity=".12"/><g transform="rotate(-8 150 190)"><rect x="52" y="116" width="196" height="140" rx="16" fill="#2A141D" stroke="url(#gGold)" stroke-width="3"/><circle cx="92" cy="158" r="22" fill="#D9A58F"/><circle cx="150" cy="158" r="22" fill="#C27B6B"/><circle cx="208" cy="158" r="22" fill="#8C4A4F"/><circle cx="92" cy="216" r="22" fill="#E8C9A8"/><circle cx="150" cy="216" r="22" fill="#6B3A47"/><circle cx="208" cy="216" r="22" fill="#B58D5E"/><circle cx="84" cy="150" r="6" fill="#fff" opacity=".35"/><circle cx="142" cy="150" r="6" fill="#fff" opacity=".3"/></g><path d="M236 84Q238 96 250 98Q238 100 236 112Q234 100 222 98Q234 96 236 84Z" fill="#C9A66B"/></svg>
+          <span class="p-tag">Ojos</span>
+        </div>
+        <div class="p-body">
+          <h3>Paleta de sombras</h3>
+          <p>Seis tonos cálidos y combinables, de neutros suaves a profundos.</p>
+          <p class="price" data-price></p>
+          <div class="p-actions">
+            <div class="stepper"><button type="button" data-act="dec" aria-label="Quitar uno">−</button><span class="qty" aria-live="polite">0</span><button type="button" data-act="inc" aria-label="Agregar uno">+</button></div>
+            <button type="button" class="btn btn-dark" data-act="add">Agregar</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Máscara -->
+      <article class="product fx reveal" data-id="mascara" data-name="Máscara de pestañas" style="--d:.24s">
+        <div class="p-art" style="--tint:#E8E0DC">
+          <svg viewBox="0 0 300 330" role="img" aria-label="Máscara de pestañas con su aplicador"><ellipse cx="150" cy="292" rx="86" ry="9" fill="#2A141D" opacity=".12"/><rect x="104" y="152" width="50" height="136" rx="10" fill="url(#gBlack)"/><rect x="100" y="132" width="58" height="28" rx="6" fill="url(#gGold)"/><rect x="110" y="170" width="6" height="104" rx="3" fill="#fff" opacity=".18"/><g transform="rotate(14 200 200)"><rect x="193" y="132" width="12" height="148" rx="6" fill="url(#gBlack)"/><rect x="189" y="76" width="20" height="62" rx="10" fill="#3B2A31"/><g stroke="#120A0D" stroke-width="2.4" stroke-linecap="round"><path d="M189 86h-8M189 98h-8M189 110h-8M189 122h-8M209 86h8M209 98h8M209 110h8M209 122h8"/></g></g><path d="M62 96Q64 108 76 110Q64 112 62 124Q60 112 48 110Q60 108 62 96Z" fill="#C9A66B"/></svg>
+          <span class="p-tag">Pestañas</span>
+        </div>
+        <div class="p-body">
+          <h3>Máscara de pestañas</h3>
+          <p>Define, alarga y da volumen a tu mirada con un aplicador cómodo.</p>
+          <p class="price" data-price></p>
+          <div class="p-actions">
+            <div class="stepper"><button type="button" data-act="dec" aria-label="Quitar uno">−</button><span class="qty" aria-live="polite">0</span><button type="button" data-act="inc" aria-label="Agregar uno">+</button></div>
+            <button type="button" class="btn btn-dark" data-act="add">Agregar</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Rubor -->
+      <article class="product fx reveal" data-id="rubor" data-name="Rubor en polvo" style="--d:.32s">
+        <div class="p-art" style="--tint:#F8DAD6">
+          <svg viewBox="0 0 300 330" role="img" aria-label="Rubor en polvo en un estuche dorado abierto"><ellipse cx="150" cy="296" rx="100" ry="10" fill="#2A141D" opacity=".12"/><ellipse cx="150" cy="170" rx="92" ry="72" fill="url(#gGold)"/><ellipse cx="150" cy="170" rx="76" ry="56" fill="#FBF6F1" opacity=".9"/><ellipse cx="128" cy="150" rx="26" ry="10" fill="#fff"/><path d="M58 240V262A92 34 0 0 0 242 262V240Z" fill="#A8863F"/><ellipse cx="150" cy="240" rx="92" ry="34" fill="url(#gGold)"/><ellipse cx="150" cy="238" rx="76" ry="26" fill="#C9677A"/><ellipse cx="150" cy="236" rx="58" ry="19" fill="#E8A5A0"/><ellipse cx="132" cy="230" rx="22" ry="6" fill="#fff" opacity=".4"/><path d="M246 70Q248 82 260 84Q248 86 246 98Q244 86 232 84Q244 82 246 70Z" fill="#C9A66B"/></svg>
+          <span class="p-tag">Mejillas</span>
+        </div>
+        <div class="p-body">
+          <h3>Rubor en polvo</h3>
+          <p>Un toque de color rosado que ilumina y da vida al rostro.</p>
+          <p class="price" data-price></p>
+          <div class="p-actions">
+            <div class="stepper"><button type="button" data-act="dec" aria-label="Quitar uno">−</button><span class="qty" aria-live="polite">0</span><button type="button" data-act="inc" aria-label="Agregar uno">+</button></div>
+            <button type="button" class="btn btn-dark" data-act="add">Agregar</button>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="cart-cta reveal">
+      <p>¡Gracias por elegir AURA! Selecciona tus favoritos y completa tu compra.</p>
+      <button type="button" class="btn btn-outline" data-act="open-cart">Ver mi carrito</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MISIÓN, VISIÓN, OBJETIVOS ============ -->
+<section class="sec dark" id="mision">
+  <div class="wrap">
+    <div class="center">
+      <p class="eyebrow">04 · Misión y visión</p>
+      <h2 class="display">Hacia dónde <em>vamos.</em></h2>
+    </div>
+    <div class="mv">
+      <div class="fx reveal">
+        <h3>Misión</h3>
+        <p>Comercializar maquillaje para mujer con una presentación elegante y una atención amable. Buscamos que cada clienta se sienta segura y valorada, y promover el crecimiento del emprendimiento local en Maicao, La Guajira.</p>
+      </div>
+      <div class="fx reveal" style="--d:.15s">
+        <h3>Visión</h3>
+        <p>Ser un emprendimiento reconocido en Maicao y en diferentes lugares de La Guajira por ofrecer maquillaje con elegancia, creatividad y responsabilidad.</p>
+        <p class="sub">Aspiramos a ampliar nuestra variedad de productos, mejorar nuestros procesos y generar oportunidades de trabajo.</p>
+      </div>
+    </div>
+
+    <div class="objs">
+      <div class="reveal">
+        <p class="eyebrow">05 · Objetivos</p>
+        <h2 class="display">Lo que nos <em>proponemos.</em></h2>
+        <p class="lead">Crear y fortalecer un emprendimiento dedicado a la comercialización de maquillaje para mujer, promoviendo la belleza, la creatividad y el desarrollo económico local.</p>
+      </div>
+      <ol class="reveal" style="--d:.15s">
+        <li><b>01</b><span>Ofrecer diferentes productos de maquillaje que satisfagan los gustos de nuestras clientas.</span></li>
+        <li><b>02</b><span>Dar a conocer nuestra marca mediante una página web y las redes sociales.</span></li>
+        <li><b>03</b><span>Brindar una atención amable, cercana y responsable.</span></li>
+        <li><b>04</b><span>Mejorar continuamente la presentación y la calidad del servicio.</span></li>
+        <li><b>05</b><span>Promover el emprendimiento y apoyar el comercio local.</span></li>
+        <li><b>06</b><span>Desarrollar estrategias para ampliar nuestro mercado.</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VALORES Y CULTURA ============ -->
+<section class="sec" id="valores">
+  <div class="wrap">
+    <div class="center">
+      <p class="eyebrow">06 · Valores empresariales</p>
+      <h2 class="display">Lo que nos <em>define.</em></h2>
+    </div>
+    <div class="values">
+      <div class="val fx reveal"><b>01</b><h3>Autenticidad</h3><p>Celebramos la belleza real y única de cada mujer.</p></div>
+      <div class="val fx reveal" style="--d:.06s"><b>02</b><h3>Responsabilidad</h3><p>Cumplimos nuestros compromisos y trabajamos con dedicación.</p></div>
+      <div class="val fx reveal" style="--d:.12s"><b>03</b><h3>Honestidad</h3><p>Ofrecemos información verdadera sobre nuestros productos.</p></div>
+      <div class="val fx reveal" style="--d:.18s"><b>04</b><h3>Respeto</h3><p>Valoramos a nuestras clientas, proveedores y colaboradores.</p></div>
+      <div class="val fx reveal"><b>05</b><h3>Creatividad</h3><p>Buscamos nuevas ideas para mejorar nuestra propuesta.</p></div>
+      <div class="val fx reveal" style="--d:.06s"><b>06</b><h3>Compromiso</h3><p>Trabajamos para alcanzar nuestras metas con constancia.</p></div>
+      <div class="val fx reveal" style="--d:.12s"><b>07</b><h3>Calidad</h3><p>Procuramos productos bien presentados y un servicio impecable.</p></div>
+      <div class="val cult fx reveal" style="--d:.18s"><b>✦</b><h3>Nuestra cultura</h3><p>Trabajo en equipo, respeto y creatividad. Escuchamos a nuestras clientas y mejoramos cada día.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEDIO AMBIENTE, COMUNIDAD, POR QUÉ ELEGIRNOS ============ -->
+<section class="sec blush" id="comunidad">
+  <div class="wrap">
+    <div class="two">
+      <div class="reveal">
+        <p class="eyebrow">07 · Compromiso con el medio ambiente</p>
+        <h2 class="display">Belleza que <em>cuida</em> el entorno.</h2>
+        <p class="lead" style="margin-bottom:22px">Buscamos que nuestras actividades disminuyan su impacto ambiental con acciones simples y constantes.</p>
+        <ul class="ticks">
+          <li>Utilizar empaques reciclables o que generen menos residuos cuando sea posible.</li>
+          <li>Evitar el desperdicio de materiales.</li>
+          <li>Promover el consumo responsable.</li>
+          <li>Aprovechar adecuadamente los recursos.</li>
+          <li>Mantener espacios limpios y organizados.</li>
+        </ul>
+      </div>
+      <div class="reveal" style="--d:.15s">
+        <div class="panel fx">
+          <h3>Aporte a la <em>comunidad de Maicao</em></h3>
+          <p>Contribuimos al desarrollo de Maicao, La Guajira, promoviendo el emprendimiento y el comercio local.</p>
+          <p>Pretendemos apoyar a proveedores de la región cuando sea posible, dar a conocer un emprendimiento local y motivar a otras jóvenes a desarrollar sus propias ideas de negocio. A medida que crezcamos, esperamos generar oportunidades de trabajo.</p>
+        </div>
+        <div class="panel fx">
+          <h3>¿Por qué elegir <em>AURA?</em></h3>
+          <ul class="chips">
+            <li>Variedad de productos</li>
+            <li>Presentación elegante</li>
+            <li>Atención cercana y amable</li>
+            <li>Escuchamos tus necesidades</li>
+            <li>Emprendimiento local</li>
+            <li>Responsabilidad y creatividad</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CÓMO REALIZAR UN PEDIDO ============ -->
+<section class="sec wine" id="pedido">
+  <div class="wrap">
+    <div class="center">
+      <p class="eyebrow">08 · ¿Cómo realizar un pedido?</p>
+      <h2 class="display">Comprar es <em>muy sencillo.</em></h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><b>01</b><p>Ingresa a nuestra página web.</p></div>
+      <div class="step reveal" style="--d:.06s"><b>02</b><p>Explora el catálogo de maquillaje.</p></div>
+      <div class="step reveal" style="--d:.12s"><b>03</b><p>Selecciona los productos que deseas.</p></div>
+      <div class="step reveal" style="--d:.18s"><b>04</b><p>Agrégalos al carrito de compras.</p></div>
+      <div class="step reveal" style="--d:.24s"><b>05</b><p>Revisa las cantidades y el valor total.</p></div>
+      <div class="step reveal" style="--d:.30s"><b>06</b><p>Envía tu pedido por WhatsApp.</p></div>
+      <div class="step reveal" style="--d:.36s"><b>07</b><p>Confirma disponibilidad, precio y entrega con nosotros.</p></div>
+    </div>
+    <div class="confirm reveal">
+      <span>Mensaje de confirmación</span>
+      “¡Hola! Gracias por comunicarte con AURA. Hemos recibido tu solicitud de pedido. Te atenderemos para confirmar los productos, las cantidades y los detalles de entrega.”
+    </div>
+  </div>
+</section>
+
+<!-- ============ PREGUNTAS FRECUENTES ============ -->
+<section class="sec" id="faq">
+  <div class="wrap faq-grid">
+    <div class="reveal">
+      <p class="eyebrow">09 · Preguntas frecuentes</p>
+      <h2 class="display">Resolvemos <em>tus dudas.</em></h2>
+      <p class="lead">Si no encuentras lo que buscas, escríbenos por WhatsApp y con gusto te ayudamos.</p>
+    </div>
+    <div class="reveal" style="--d:.15s">
+      <details class="faq"><summary>¿Dónde se encuentra AURA?</summary><p>Nuestro emprendimiento está ubicado en Maicao, La Guajira, Colombia.</p></details>
+      <details class="faq"><summary>¿Qué productos ofrecemos?</summary><p>Ofrecemos labial mate, base líquida, paleta de sombras, máscara de pestañas y rubor en polvo, sujetos a disponibilidad.</p></details>
+      <details class="faq"><summary>¿Cómo puedo comprar?</summary><p>Selecciona tus productos en el catálogo, agrégalos al carrito y envía tu pedido por WhatsApp para confirmarlo.</p></details>
+      <details class="faq"><summary>¿Cuáles son los precios?</summary><p>Los precios aparecen en cada producto cuando están disponibles. Si ves “Precio por confirmar”, te lo informamos directamente por nuestros canales de atención.</p></details>
+      <details class="faq"><summary>¿Qué tonos hay disponibles?</summary><p>Los tonos y colores disponibles se confirman por WhatsApp al momento de tu pedido.</p></details>
+      <details class="faq"><summary>¿Puedo hacer preguntas antes de comprar?</summary><p>¡Por supuesto! Escríbenos y recibirás información sobre cada producto.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACTO + MAPA + REDES ============ -->
+<section class="sec blush" id="contacto">
+  <div class="wrap">
+    <div class="center">
+      <p class="eyebrow">10 · Contáctenos</p>
+      <h2 class="display">Estamos <em>cerca de ti.</em></h2>
+      <p class="lead">¿Tienes alguna pregunta o deseas realizar un pedido? Déjanos tu mensaje. En AURA estaremos felices de atenderte.</p>
+    </div>
+    <div class="contact">
+      <form class="card reveal" id="contactForm">
+        <div class="fields">
+          <div class="field"><label for="nombre">Nombre completo</label><input id="nombre" name="nombre" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="correo">Correo electrónico</label><input id="correo" name="correo" type="email" autocomplete="email"></div>
+          <div class="field"><label for="tel">Número de teléfono</label><input id="tel" name="tel" type="tel" autocomplete="tel"></div>
+          <div class="field"><label for="motivo">Motivo del mensaje</label>
+            <select id="motivo" name="motivo">
+              <option>Hacer un pedido</option><option>Consulta de productos</option><option>Preguntar por precios</option><option>Enviar una sugerencia</option>
+            </select></div>
+          <div class="field full"><label for="mensaje">Mensaje o consulta</label><textarea id="mensaje" name="mensaje" rows="5" required></textarea></div>
+        </div>
+        <button class="btn btn-dark" type="submit">Enviar por WhatsApp</button>
+      </form>
+
+      <div class="stack reveal" style="--d:.15s">
+        <div class="info fx">
+          <h3>Información de contacto</h3>
+          <dl>
+            <dt>Nombre</dt><dd>AURA Makeup</dd>
+            <dt>Ubicación</dt><dd>Maicao, La Guajira, Colombia</dd>
+            <dt>WhatsApp</dt><dd><a href="#" data-wa="general" data-wa-label target="_blank" rel="noopener"></a></dd>
+            <dt>Atención</dt><dd>Pedidos, consultas y sugerencias</dd>
+          </dl>
+        </div>
+        <div class="map fx">
+          <svg viewBox="0 0 480 250" role="img" aria-label="Mapa ilustrado con la ubicación de AURA en Maicao">
+            <rect width="480" height="250" fill="#F4E4E1"/>
+            <g stroke="#fff" stroke-width="15" stroke-linecap="round" fill="none"><path d="M-10 80C90 92 140 46 240 98S400 160 490 118"/><path d="M120 -10C142 76 108 156 172 260"/><path d="M336 -10C314 64 364 126 342 260"/></g>
+            <g stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none"><path d="M-10 182C80 170 160 202 250 180"/><path d="M240 98L252 180"/><path d="M402 148L490 200"/></g>
+            <g fill="#EBCBC4"><rect x="20" y="108" width="72" height="48" rx="10"/><rect x="190" y="16" width="82" height="46" rx="10"/><rect x="384" y="22" width="72" height="52" rx="10"/><rect x="402" y="178" width="62" height="52" rx="10"/><rect x="40" y="198" width="62" height="42" rx="10"/></g>
+            <ellipse cx="240" cy="162" rx="22" ry="7" fill="#2A141D" opacity=".2"/>
+            <path d="M240 162C222 136 212 124 212 108a28 28 0 0 1 56 0c0 16-10 28-28 54z" fill="#4A1F2E"/>
+            <circle cx="240" cy="108" r="11" fill="#C9A66B"/>
+          </svg>
+          <div class="map-foot">
+            <div><b>Ubicación principal</b><span>Maicao, La Guajira, Colombia</span></div>
+            <a class="btn btn-dark" href="https://www.google.com/maps/search/?api=1&amp;query=Maicao%2C+La+Guajira%2C+Colombia" target="_blank" rel="noopener">Abrir en Google Maps</a>
+          </div>
+        </div>
+      </div>
+      <div class="social fx reveal">
+        <h3>Síguenos en redes</h3>
+        <p>Novedades, fotografías, promociones y videos de nuestros productos.</p>
+        <ul><li>Facebook · próximamente</li><li>Instagram · próximamente</li><li>YouTube · próximamente</li></ul>
+        <div class="wa-bubble"><b>Mensaje de bienvenida en WhatsApp</b>¡Hola! Bienvenida a AURA. Gracias por visitar nuestra página. ¿En qué podemos ayudarte? Estamos disponibles para brindarte información sobre nuestro maquillaje y ayudarte con tu pedido.</div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SISTEMAS Y SUBSISTEMAS ============ -->
+<section class="sec dark" id="sistema">
+  <div class="wrap">
+    <div class="center">
+      <p class="eyebrow">11 · Sistemas y subsistemas</p>
+      <h2 class="display">Cómo funciona <em>nuestra página.</em></h2>
+      <p class="lead">AURA es el sistema principal. Cada parte de la página cumple una función y trabaja junto a las demás para mostrar los productos, facilitar las compras y mantener la comunicación con las clientas.</p>
+    </div>
+    <div class="systems">
+      <div class="sys fx reveal"><h3>Subsistema de información</h3><p>Contiene la historia, misión, visión, valores y datos del emprendimiento.</p></div>
+      <div class="sys fx reveal" style="--d:.08s"><h3>Subsistema de productos</h3><p>Presenta el catálogo de maquillaje, sus características, imágenes y precios.</p></div>
+      <div class="sys fx reveal" style="--d:.16s"><h3>Subsistema de ventas</h3><p>Permite seleccionar productos, agregarlos al carrito y organizar los pedidos.</p></div>
+      <div class="sys fx reveal"><h3>Subsistema de comunicación</h3><p>Facilita el contacto mediante WhatsApp, formulario y redes sociales.</p></div>
+      <div class="sys fx reveal" style="--d:.08s"><h3>Subsistema de ubicación</h3><p>Permite conocer dónde se encuentra el emprendimiento mediante Google Maps.</p></div>
+      <div class="sys fx reveal" style="--d:.16s"><h3>Subsistema de estadísticas</h3><p>Permite conocer la cantidad de visitas que recibe la página web.</p></div>
+    </div>
+    <p class="flow reveal">Una clienta ingresa a la página, conoce el emprendimiento, revisa los productos, selecciona sus favoritos, los agrega al carrito y finalmente se comunica por WhatsApp para confirmar su pedido.</p>
+  </div>
+</section>
+
+<!-- ============ CONCLUSIÓN ============ -->
+<section class="sec wine final">
+  <div class="wrap">
+    <p class="eyebrow" style="justify-content:center">12 · Conclusión</p>
+    <h2 class="display">Una idea que se convierte en <em>oportunidad.</em></h2>
+    <p>Esta página web nos permite dar a conocer nuestro emprendimiento, mostrar nuestro catálogo, presentar la identidad de la marca, recibir solicitudes de pedidos y compartir información importante sobre nuestro negocio.</p>
+    <p>AURA busca crecer con esfuerzo, creatividad y responsabilidad, demostrando que una idea puede convertirse en una oportunidad para emprender y contribuir al desarrollo de nuestra comunidad.</p>
+    <a class="btn btn-gold" href="#" data-wa="general" target="_blank" rel="noopener">Hablemos por WhatsApp</a>
+  </div>
+</section>
+</main>
+
+<!-- ============ PIE DE PÁGINA ============ -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <div class="logo">AURA<small>MAKEUP</small></div>
+        <p class="slogan">Realza tu belleza, revela tu esencia.</p>
+        <p>Maicao, La Guajira, Colombia.</p>
+        <p>WhatsApp: <a href="#" data-wa="general" data-wa-label target="_blank" rel="noopener" style="text-decoration:underline"></a></p>
+      </div>
+      <nav aria-label="Pie de página">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#productos">Productos</a>
+        <a href="#pedido">Cómo pedir</a>
+        <a href="#faq">Preguntas frecuentes</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="counter">
+        <b>Visitas a la página</b>
+        <strong>—</strong>
+        <p>El contador se activa al conectar la página a un sistema de estadísticas que registre visitas reales.</p>
+      </div>
+    </div>
+    <p class="copy-line">© 2026 AURA Makeup. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<!-- WhatsApp flotante -->
+<a class="wa-float" href="#" data-wa="general" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp a AURA">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.7-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
+  <span>WhatsApp</span>
+</a>
+
+<!-- Carrito -->
+<div class="scrim" id="scrim" data-act="close-cart"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" aria-hidden="true">
+  <div class="drawer-head">
+    <h2 id="drawerTitle">Tu carrito</h2>
+    <button class="icon-btn" type="button" data-act="close-cart" aria-label="Cerrar carrito" id="closeCart">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="drawer-body">
+    <p class="cart-empty" id="cartEmpty">Aún no has agregado productos. Elige tus favoritos en la colección.</p>
+    <ul id="cartLines"></ul>
+  </div>
+  <div class="drawer-foot" id="cartFoot" hidden>
+    <div class="tot"><span>Productos en total</span><b id="totUnits">0</b></div>
+    <div class="tot big" id="totMoneyRow" hidden><span>Valor total</span><b id="totMoney"></b></div>
+    <p class="note" id="totNote">Te confirmaremos precios y valor total por WhatsApp.</p>
+    <a class="btn btn-gold" id="orderLink" href="#" target="_blank" rel="noopener">Enviar pedido por WhatsApp</a>
+    <button class="link" type="button" data-act="clear">Vaciar carrito</button>
+  </div>
+</aside>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
